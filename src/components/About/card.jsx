@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
-import Modal from './Modal';
+import Modal from './modal';
 
 const Card = ({ imageSrc, title, tiltDirection, onClick }) => {
   return (
